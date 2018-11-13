@@ -1,29 +1,46 @@
-Assignment has 4 routes
-  * /sendFile -> outputting file from local directory
-  * /product -> products two numbers
-  * /uploadFile -> accepts file content and writes to files folder in the disk
-  * /stringNonRepeat -> finds the first non repeating element in the stringLogic
+<h1> Staring server </h1>
+<span> npm start </span>
+
+<h1> Running Test </h1>
+<span npm test </span>
 
 
-/sendFile - GET
-  -> no input is required
-  -> sends the test image file from the files folder
+<h2> Assignment has 4 routes </h2>
+  <ul>
+    <li> /sendFile -> outputting file from local directory </li>
+    <li> /product -> products two numbers </li>
+    <li> /uploadFile -> accepts file content and writes to files folder in the disk </li>
+    <li> /stringNonRepeat -> finds the first non repeating element in the string </li>
+  </ul>
 
-/product - GET
-  -> input is passed as url params
-  -> sends the product of two numbers
 
-/uploadFile - POST
-  -> input is passed as a form-body and type as file
-  -> received file is stored in the files folder
+<h2> /sendFile - GET </h2>
+  <ul>
+    <li> no input is required </li>
+    <li> sends the test image file from the files folder </li>
+  </ul>
 
-/stringNonRepeat - POST
-  -> input is passed as a json body with key as input
+<h2> /product - GET </h2>
+  <ul>
+    <li> input is passed as url params </li>
+    <li> sends the product of two numbers </li>
+  </ul>
+
+<h2> /uploadFile - POST </h2>
+  <ul>
+    <li> input is passed as a form-body and type as file </li>
+    <li> received file is stored in the files folder </li>
+  <ul>
+
+<h2> /stringNonRepeat - POST </h2>
+  <ul>
+    <li> input is passed as a json body with key as input </li>
       eg:
       {
         input: 'some string'
       }
-  -> returns the first non repeating character from the string
+      <li> returns the first non repeating character from the string </li>\
+    </ul>
 
 
-** All routes are tested in POSTMAN
+<h2> All routes are tested in POSTMAN </h2>
