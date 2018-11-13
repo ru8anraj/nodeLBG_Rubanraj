@@ -30,7 +30,7 @@
   <ul>
     <li> input is passed as a form-body and type as file </li>
     <li> received file is stored in the files folder </li>
-  <ul>
+  </ul>
 
 <h2> /stringNonRepeat - POST </h2>
   <ul>
