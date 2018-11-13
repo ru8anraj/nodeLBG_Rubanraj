@@ -39,7 +39,7 @@
       {
         input: 'some string'
       }
-      <li> returns the first non repeating character from the string </li>\
+      <li> returns the first non repeating character from the string </li>
     </ul>
 
 
