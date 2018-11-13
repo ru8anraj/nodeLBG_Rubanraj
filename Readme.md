@@ -2,7 +2,7 @@
 <span> npm start </span>
 
 <h1> Running Test </h1>
-<span npm test </span>
+<span> npm test </span>
 
 
 <h2> Assignment has 4 routes </h2>
