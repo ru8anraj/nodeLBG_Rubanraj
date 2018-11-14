@@ -3,6 +3,7 @@ const stringLogic = require('./router.config.js');
 stringLogic.post('/stringNonRepeat', (req, res) => {
   var inp = req.body.input.toLowerCase();
   var input = inp.split('');
+  input = input.filter(x => x != " "); // removing whitespaces
   var dup = [];
   var nonRepeat = '';
 

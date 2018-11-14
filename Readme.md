@@ -1,8 +1,8 @@
 <h1> Staring server </h1>
-<span> npm start </span>
+<span><strong> npm start </strong></span>
 
 <h1> Running Test </h1>
-<span> npm test </span>
+<span><strong> npm test </strong></span>
 
 
 <h2> Assignment has 4 routes </h2>
@@ -39,8 +39,8 @@
       {
         input: 'some string'
       }
-      <li> returns the first non repeating character from the string </li>
-    </ul>
+    <li> returns the first non repeating character from the string </li>
+  </ul>
 
 
 <h2> All routes are tested in POSTMAN </h2>
