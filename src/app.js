@@ -5,7 +5,8 @@ const express = require('express')
 const sendFile = require('./routes/sendFile.route.js')
     , product = require('./routes/product.route.js')
     , uploadFile = require('./routes/uploadFile.route.js')
-    , stringLogic = require('./routes/stringLogic.route.js');
+    , stringLogic = require('./routes/stringLogic.route.js')
+    , webCrawler = require('./routes/webCrawler.route.js');
 
 // setting up the required headers for any HTTP request-response
 app.use((req, res, next) => {
@@ -24,6 +25,6 @@ app.use(express.urlencoded({
 app.use('/',(req,res,next)=>{
   console.log('inside routes');
   next();
-}, sendFile, product, uploadFile, stringLogic);
+}, sendFile, product, uploadFile, stringLogic, webCrawler);
 
 module.exports = app;
